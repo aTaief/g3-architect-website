@@ -110,6 +110,49 @@
     margin-bottom: 35.625px;
 }
 
+/* Main Style */
+
+.main_part{
+    margin: 67.2916px 238.2916px 102.916px 238.2916px;
+    display: flex;
+    gap: 0;
+}
+
+.main_part1{
+    display: grid;
+    grid-template-columns: repeat(2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
