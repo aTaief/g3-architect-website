@@ -142,11 +142,11 @@
 }
 .main_desc_headline1{
     font-weight: 500;
-    font-size: 35.625px;
+    font-size: 2.227rem;
 }
 .main_desc_headline2{
     font-weight: 700;
-    font-size: 35.625px;
+    font-size: 2.227rem;
 }
 .main_desc_headline3{
     color: #FF900E;
@@ -157,7 +157,7 @@
     margin-top: 19px;
     margin-bottom: 25.33px;
     line-height: 20.583px;
-    font-size: 12.666px;
+    font-size: 0.792rem;
     width: 425.125px;
 }
 .banner_btn1{
@@ -171,6 +171,141 @@
     font-weight: 550;
     padding: 15.83px 19px;
 }
+
+/* features_part style */
+
+.features_part{
+    margin: 0 190px 102.9166px 190px;
+    display: flex;
+    gap: 42.75px;
+}
+
+.features_enjoy{
+    margin: 30.875px auto;
+    max-width: 463.9166px;
+}
+
+.features_enjoy1{
+    display: flex;
+}
+
+.features_enjoy_color{
+    background-color: #FF900E;
+    display: block;
+    width: 3.9583px;
+    height: 83.9166px;
+    margin-right: 16.625px;
+}
+
+.features_enjoy_header1{
+    font-size: 35.625px;
+    font-weight: 700;
+    width: 370.5px;
+    display: flex;
+    align-items: center;
+}
+
+.features_enjoy_description{
+    margin: 19px 0 23.75px 0;
+    display: block;
+    font-size: 0.791rem;
+    line-height: 20.5833px;
+}
+
+.features_enjoy_div{
+    display: flex;
+    flex-direction: column;
+    gap: 15.833px;
+}
+
+.features_enjoy_part{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 23.75px 33.25px 23.75px 23.75px;
+}
+
+.features_enjoy_div_header{
+    display: block;
+    font-weight: 600;
+    font-size: 15.833px;
+}
+
+.features_enjoy_div_desc{
+    display: block;
+    line-height: 20.5833px;
+    font-size: 12.66px;
+    margin-top: 7.916px;
+}
+
+.features_img{
+    height: 838.375px;
+    width: 633.33px;
+    background-image: url("../images/architect.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 560.5px 777.416px;
+}
+
+.features_img1{
+    display: flex;
+    text-align: center;
+    background-color: #FF900E;
+    border-radius: 8px;
+    width: 270.75px;
+    height: 158.33px;
+    margin: 690px 0 0 0;
+}
+
+.features_img1 .box{
+    margin: auto;
+    
+}
+
+.features_img_head{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 51.4583px;
+}
+
+.features_img_desc{
+    color: #FFFFFF;
+    font-size: 19.7916px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
