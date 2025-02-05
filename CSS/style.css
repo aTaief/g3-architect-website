@@ -7,3 +7,108 @@
     font-weight: 400;
     font-style: normal;
   }
+
+/* Shared Styles */
+
+.bg_light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.display_flex{
+    display: flex;
+}
+.dark2{
+    color: #424242;
+}
+.dark3{
+    color: #727272;
+}
+.orange_color{
+    color: #FF900E;
+}
+
+
+/* Header Styles */
+
+.header_style{
+    max-width: 75%;
+    margin: 0 auto;
+}
+.head{
+    width: 1520px;
+}
+
+/* Navbar Styles */
+
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+.brand_name{
+    font-size: 2.227rem;
+    font-weight: 700;
+}
+
+.nav_links{
+    gap: 60px;
+}
+
+.nav_item{
+    list-style: none;
+    
+}
+
+.nav_link{
+    text-decoration: none;
+    font-size: 0.891rem;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* banner styles */
+
+
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 39.58px auto;
+}
+
+.banner_title{
+    font-weight: 700;
+    font-size: 3.167rem;
+}
+
+.banner_desc{
+    font-size: 0.792rem;
+    width: 687.166px;
+    line-height: 20.5px;
+    margin: 19.7916px auto 0 auto;
+    
+}
+
+.banner_btn{
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    margin-top: 25.33px;
+    width: 142.5px;
+    height: 50.66px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 550;
+    padding: 15.83px 19px;
+}
+
+.header_style img{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 35.625px;
+}
