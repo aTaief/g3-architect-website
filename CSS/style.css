@@ -34,9 +34,6 @@
     max-width: 75%;
     margin: 0 auto;
 }
-.head{
-    width: 1520px;
-}
 
 /* Navbar Styles */
 
@@ -88,7 +85,7 @@
 
 .banner_desc{
     font-size: 0.792rem;
-    width: 687.166px;
+    width: 62%;
     line-height: 20.5px;
     margin: 19.7916px auto 0 auto;
     
@@ -111,4 +108,19 @@
     width: 100%;
     border-radius: 8px;
     margin-bottom: 35.625px;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav_links{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
 }
